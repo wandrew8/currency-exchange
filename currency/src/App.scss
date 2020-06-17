@@ -33,6 +33,10 @@ html {
         border: solid black 1px;
         padding: 0.5rem;
         border-radius: 5px;
+        transition: 150ms ease-in;
+        &:hover {
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
        .countryName {
            font-size: 1.2rem;
            text-transform: uppercase;
