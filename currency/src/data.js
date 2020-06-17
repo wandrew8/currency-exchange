@@ -34,7 +34,7 @@ export const countryData = [
     },
     {
         country: "India",
-        code: "IDR",
+        code: "INR",
         currency: "Rupees",
         type: "Indian",
         imageCode: "IN",
