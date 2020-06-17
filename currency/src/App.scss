@@ -62,7 +62,7 @@ html {
         margin: 0 auto;
         text-align: center;
         font-size: 2rem;
-        width: 200px;
+        width: 250px;
         border-radius: 5px;
         margin: 32px auto;
         font-family: 'Montserrat', sans-serif;
@@ -76,7 +76,7 @@ html {
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         border: solid 1px black;
-        width: 200px;
+        width: 250px;
         text-align: center;
         margin: 32px auto;
         border-radius: 5px;
@@ -86,4 +86,22 @@ html {
       @media (max-width: 800px) { 
           grid-template-columns: 1fr;
        }
+  }
+
+  .input-icon {
+    position: relative;
+    width: 250px;
+    margin: 0 auto;
+  }
+  
+  .input-icon > i {
+    position: absolute;
+    display: block;
+    transform: translate(0, -50%);
+    top: 50%;
+    font-size: 1.5rem;
+    pointer-events: none;
+    width: 25px;
+    text-align: center;
+    font-style: normal;
   }

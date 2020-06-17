@@ -4,7 +4,8 @@ export const countryData = [
         code: "HKD",
         currency: "Dollars",
         type: "Hong Kong",
-        imageCode: "HK"
+        imageCode: "HK",
+        symbol: "$",
 
     },
     {
@@ -12,49 +13,56 @@ export const countryData = [
         code: "GBP",
         currency: "Pounds",
         type: "British",
-        imageCode: "GB"
+        imageCode: "GB",
+        symbol: "£",
     },
     {
         country: "Japan",
         code: "JPY",
         currency: "Yen",
         type: "Japanese",
-        imageCode: "JP"
+        imageCode: "JP",
+        symbol: "¥",
     },
     {
         country: "Thailand",
         code: "THB",
         currency: "Baht",
         type: "Thai",
-        imageCode: "TH"
+        imageCode: "TH",
+        symbol: "฿",
     },
     {
         country: "India",
         code: "IDR",
         currency: "Rupees",
         type: "Indian",
-        imageCode: "IN"
+        imageCode: "IN",
+        symbol: "₹",
     },
     {
         country: "European Union",
         code: "EUR",
         currency: "Euro",
         type: "European",
-        imageCode: "EU"
+        imageCode: "EU",
+        symbol: "€",
     },
     {
         country: "Australia",
         code: "AUD",
         currency: "Dollars",
         type: "Australian",
-        imageCode: "AU"
+        imageCode: "AU",
+        symbol: "$",
     },
     {
         country: "Canada",
         code: "CAD",
         currency: "Dollars",
         type: "Canadian",
-        imageCode: "CA"
+        imageCode: "CA",
+        symbol: "$",
     }
 
 ]
